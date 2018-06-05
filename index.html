@@ -1,0 +1,383 @@
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script defer src="jquery-1.10.2.js"></script>
+  <script defer src="jquery.js"></script>
+  <script defer src="main.js"></script>
+  <script src="deck.js"></script>
+
+
+ <title> Celestial Readings </title>
+ <link rel="icon" type="image/png" href="flower1.png" />
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="Celestial Readings">
+ <meta property="og:description" content="Throw dowm a virtual deck of cards and do a self reading">
+ <meta property="og:image" content="https://akpvasquez.github.io/cfc/cards.png">
+</head>
+
+
+
+<body>
+
+<div>
+
+  <h1 class="header">
+    Celestial Readings
+  </h1>
+
+<div>
+  Click on the card 7 times to get a reading
+</div>
+
+  <div class="click">
+				<img src="images/backdeck.png" alt="deck of cards" id="deal">
+			<br>
+
+  </div>
+
+  <div id="cards">
+      </div>
+      <div id="reading">
+      </div>
+
+      <div>
+        <div class="hidden" id="Card_001">
+  The Magician
+</div>
+
+<div class="hidden" id="Card_002">
+  The Empress
+</div>
+
+<div class="hidden" id="Card_003">
+  The Emperor
+</div>
+
+<div class="hidden" id="Card_004">
+  The Herophant
+</div>
+
+<div class="hidden" id="Card_005">
+  The Lovers
+</div>
+
+<div class="hidden" id="Card_006">
+  The Chariot
+</div>
+
+<div class="hidden" id="Card_007">
+  The Strength
+</div>
+
+<div class="hidden" id="Card_008">
+  The Hermit
+</div>
+
+<div class="hidden" id="Card_009">
+  Wheel of Fortune
+</div>
+
+<div class="hidden" id="Card_010">
+  Justice
+</div>
+
+<div class="hidden" id="Card_011">
+  The Star
+</div>
+
+<div class="hidden" id="Card_012">
+  The World
+</div>
+
+<div class="hidden"  id="Card_013">
+  Judgement
+</div>
+
+<div class="hidden" id="Card_014">
+  Death
+</div>
+
+<div class="hidden" id="Card_015">
+  The Moon
+</div>
+
+<div class="hidden" id="Card_016">
+  The Sun
+</div>
+
+<div class="hidden" id="Card_017">
+  Temperance
+</div>
+
+<div class="hidden" id="Card_018">
+  The Hanged Man
+</div>
+
+<div class="hidden" id="Card_019">
+  King of Wands
+</div>
+
+<div class="hidden" id="Card_020">
+  The Fool
+</div>
+
+<div class="hidden" id="Card_021">
+  Ten of Wands
+</div>
+
+<div class="hidden" id="Card_022">
+  Seven of Wands
+</div>
+
+<div class="hidden" id="Card_023">
+  Queen of Wands
+</div>
+
+<div class="hidden" id="Card_024">
+  The Moon
+</div>
+
+<div class="hidden" id="Card_025">
+  Page of Wands
+</div>
+
+<div class="hidden" id="Card_026">
+  Temperance
+</div>
+
+<div class="hidden" id="Card_027">
+  Knight of Wands
+</div>
+
+<div class="hidden" id="Card_028">
+  Nine of Wands
+</div>
+
+<div class="hidden" id="Card_029">
+  Eight of Wands
+</div>
+
+<div class="hidden" id="Card_030">
+  Ace of Wands
+</div>
+
+<div class="hidden" id="Card_031">
+  Queen of Cups
+</div>
+
+<div class="hidden" id="Card_033">
+  Five of Wands
+</div>
+
+<div class="hidden" id="Card_034">
+  Three of Wands
+</div>
+
+<div class="hidden" id="Card_035">
+  Two of Wands
+</div>
+
+<div class="hidden" id="Card_036">
+  Six of Wands
+</div>
+
+<div class="hidden" id="Card_037">
+  Four of Wands
+</div>
+
+<div class="hidden" id="Card_038">
+  The High Priestess
+</div>
+
+<div class="hidden" id="Card_038">
+  King of Cups
+</div>
+
+<div class="hidden" id="Card_039">
+  Nine of Cups
+</div>
+
+<div class="hidden" id="Card_040">
+  Six of Cups
+</div>
+
+<div class="hidden" id="Card_041">
+  Page of Cups
+</div>
+
+<div class="hidden" id="Card_042">
+  Seven of Cups
+</div>
+
+<div class="hidden" id="Card_043">
+  Eight of Cups
+</div>
+
+<div class="hidden" id="Card_043">
+  Knight of Cups
+</div>
+
+<div class="hidden" id="Card_044">
+  Ten of Cups
+</div>
+
+<div class="hidden" id="Card_045">
+  Four of Cups
+</div>
+
+<div class="hidden" id="Card_046">
+  Five of Cups
+</div>
+
+<div class="hidden" id="Card_047">
+  Ace of Cups
+</div>
+
+<div class="hidden" id="Card_048">
+  Knight of Swords
+</div>
+
+<div class="hidden" id="Card_049">
+  Ten of Swords
+</div>
+
+<div class="hidden" id="Card_050">
+  Three of Cups
+</div>
+
+<div class="hidden" id="Card_051">
+  Two of Cups
+</div>
+
+<div class="hidden" id="Card_052">
+  Nine of Swords
+</div>
+
+<div class="hidden" id="Card_053">
+  Page of Swords
+</div>
+
+<div class="hidden" id="Card_054">
+  King of Swords
+</div>
+
+<div class="hidden" id="Card_055">
+  Queen of Swords
+</div>
+
+<div class="hidden" id="Card_056">
+  Five of Swords
+</div>
+
+<div class="hidden" id="Card_057">
+  Two of Sword
+</div>
+
+<div class="hidden" id="Card_058">
+  Seven of Swords
+</div>
+
+<div class="hidden" id="Card_059">
+  Four of Swords
+</div>
+
+<div class="hidden" id="Card_060">
+  Eight of Swords
+</div>
+
+<div class="hidden" id="Card_061">
+  Two of Swords
+</div>
+
+<div class="hidden" id="Card_062">
+  Six of Swords
+</div>
+
+<div class="hidden" id="Card_063">
+  Ace of Swords
+</div>
+
+<div class="hidden"  id="Card_064">
+  Eight of Pentacles
+</div>
+
+<div class="hidden" id="Card_065">
+  Five of Pentacles
+</div>
+
+<div class="hidden" id="Card_066">
+  Knight of Pentacles
+</div>
+
+<div class="hidden" id="Card_067">
+  Nine of Pentacles
+</div>
+
+<div class="hidden" id="Card_068">
+  Ten of Pentacles
+</div>
+
+<div class="hidden" id="Card_069">
+  Queen of Pentacles
+</div>
+
+<div class="hidden" id="Card_070">
+  Page of Pentacles
+</div>
+
+<div class="hidden" id="Card_071">
+  Six of Pentacles
+</div>
+
+<div class="hidden" id="Card_072">
+  Seven of Pentacles
+</div>
+
+<div class="hidden" id="Card_073">
+  Ace of Pentacles
+</div>
+
+<div class="hidden" id="Card_074">
+  Three of Swords
+</div>
+
+<div class="hidden" id="Card_075">
+  Three of Pentacles
+</div>
+
+<div class="hidden" id="Card_076">
+  Two of Pentacles
+</div>
+
+<div class="hidden" id="Card_077">
+  King of Pentacles
+</div>
+
+<div class="hidden" id="Card_078">
+  Four of Pentacles
+</div>
+      </div>
+  </div>
+
+  <div class="click">
+    <input type="click" value="SHUFFLE" id="shuffle" />
+  </div>
+
+
+
+  <br>
+
+
+
+</div>
+
+<br>
+
+<br>
+
+</body>
+<html>
